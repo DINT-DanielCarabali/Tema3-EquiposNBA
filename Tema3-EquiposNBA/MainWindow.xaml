@@ -23,14 +23,14 @@
                 </WrapPanel.Background>
                 <StackPanel>
                     <WrapPanel HorizontalAlignment="Center">
-                        <TextBlock FontSize="30" FontWeight="Bold">Los Ángeles Lakers</TextBlock>
+                        <TextBlock TextWrapping="Wrap" TextAlignment="Center" FontSize="30" FontWeight="Bold">Los Ángeles Lakers</TextBlock>
                     </WrapPanel>
                     <WrapPanel HorizontalAlignment="Center">
-                        <Image Source="assets/9_lakers.png" Height="110"/>
-                        <Image Source="assets/14_lakers.png" Height="110"/>
-                        <Image Source="assets/23_lakers.png" Height="110"/>
-                        <Image Source="assets/3_lakers.png" Height="110"/>
-                        <Image Source="assets/39_lakers.png" Height="110"/>
+                        <Image Source="assets/9_lakers.png" Height="110" Width="150"/>
+                        <Image Source="assets/14_lakers.png" Height="110" Width="150"/>
+                        <Image Source="assets/23_lakers.png" Height="110" Width="150"/>
+                        <Image Source="assets/3_lakers.png" Height="110" Width="150"/>
+                        <Image Source="assets/39_lakers.png" Height="110" Width="150"/>
                     </WrapPanel>
                 </StackPanel>
             </WrapPanel>
@@ -51,14 +51,14 @@
                 </WrapPanel.Background>
                 <StackPanel>
                     <WrapPanel HorizontalAlignment="Center">
-                        <TextBlock FontSize="30" FontWeight="Bold" Foreground="White">Miami Heat</TextBlock>
+                        <TextBlock TextWrapping="Wrap" TextAlignment="Center" FontSize="30" FontWeight="Bold" Foreground="White">Miami Heat</TextBlock>
                     </WrapPanel>
                     <WrapPanel HorizontalAlignment="Center">
-                        <Image Source="assets/7_heat.png" Height="110"/>
-                        <Image Source="assets/14_heat.png" Height="110"/>
-                        <Image Source="assets/22_heat.png" Height="110"/>
-                        <Image Source="assets/99_heat.png" Height="110"/>
-                        <Image Source="assets/13_heat.png" Height="110"/>
+                        <Image Source="assets/7_heat.png" Height="110" Width="150"/>
+                        <Image Source="assets/14_heat.png" Height="110" Width="150"/>
+                        <Image Source="assets/22_heat.png" Height="110" Width="150"/>
+                        <Image Source="assets/99_heat.png" Height="110" Width="150"/>
+                        <Image Source="assets/13_heat.png" Height="110" Width="150"/>
                     </WrapPanel>
                 </StackPanel>
             </WrapPanel>
