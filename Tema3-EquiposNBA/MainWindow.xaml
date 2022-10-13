@@ -6,59 +6,91 @@
         xmlns:local="clr-namespace:Tema3_EquiposNBA"
         mc:Ignorable="d"
         Title="Equipos NBA" Height="450" Width="800" Icon="assets/basketball.ico">
+    <Window.Resources>
+        <Style TargetType="{x:Type Border}">
+            <Setter Property="BorderBrush" Value="Black"/>
+            <Setter Property="BorderThickness" Value="3"/>
+            <Setter Property="CornerRadius" Value="3"/>
+            <Setter Property="Margin" Value="8,8,8,10"/>
+        </Style>
+
+        <Style TargetType="{x:Type WrapPanel}">
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+        </Style>
+
+        <Style TargetType="{x:Type TextBlock}">
+            <Setter Property="TextWrapping" Value="Wrap"/>
+            <Setter Property="TextAlignment" Value="Center"/>
+            <Setter Property="FontSize" Value="30"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+
+        <Style TargetType="{x:Type Image}">
+            <Setter Property="Height" Value="110"/>
+            <Setter Property="Width" Value="150"/>
+        </Style>
+    </Window.Resources>
+
     <StackPanel>
-        <Border BorderBrush="Black" BorderThickness="3" CornerRadius="3" Margin="8,8,8,10">
+        <Border>
             <Border.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFA437FF" Offset="0"/>
                     <GradientStop Color="#FFE8C241" Offset="1"/>
                 </LinearGradientBrush>
             </Border.Background>
-            <WrapPanel HorizontalAlignment="Center">
+            
+            <WrapPanel>
                 <WrapPanel.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                         <GradientStop Color="#FFA437FF" Offset="0"/>
                         <GradientStop Color="#FFE8C241" Offset="1"/>
                     </LinearGradientBrush>
                 </WrapPanel.Background>
+                
                 <StackPanel>
-                    <WrapPanel HorizontalAlignment="Center">
-                        <TextBlock TextWrapping="Wrap" TextAlignment="Center" FontSize="30" FontWeight="Bold">Los Ángeles Lakers</TextBlock>
+                    <WrapPanel>
+                        <TextBlock>Los Ángeles Lakers</TextBlock>
                     </WrapPanel>
-                    <WrapPanel HorizontalAlignment="Center">
-                        <Image Source="assets/9_lakers.png" Height="110" Width="150"/>
-                        <Image Source="assets/14_lakers.png" Height="110" Width="150"/>
-                        <Image Source="assets/23_lakers.png" Height="110" Width="150"/>
-                        <Image Source="assets/3_lakers.png" Height="110" Width="150"/>
-                        <Image Source="assets/39_lakers.png" Height="110" Width="150"/>
+                    
+                    <WrapPanel>
+                        <Image Source="assets/9_lakers.png"/>
+                        <Image Source="assets/14_lakers.png"/>
+                        <Image Source="assets/23_lakers.png"/>
+                        <Image Source="assets/3_lakers.png"/>
+                        <Image Source="assets/39_lakers.png"/>
                     </WrapPanel>
                 </StackPanel>
             </WrapPanel>
         </Border>
-        <Border BorderBrush="Black" BorderThickness="3" CornerRadius="3" Margin="8,8,8,10">
+        
+        <Border>
             <Border.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black" Offset="0"/>
                     <GradientStop Color="Red" Offset="1"/>
                 </LinearGradientBrush>
             </Border.Background>
-            <WrapPanel HorizontalAlignment="Center">
+            
+            <WrapPanel>
                 <WrapPanel.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                         <GradientStop Color="Black" Offset="0"/>
                         <GradientStop Color="Red" Offset="1"/>
                     </LinearGradientBrush>
                 </WrapPanel.Background>
+                
                 <StackPanel>
-                    <WrapPanel HorizontalAlignment="Center">
-                        <TextBlock TextWrapping="Wrap" TextAlignment="Center" FontSize="30" FontWeight="Bold" Foreground="White">Miami Heat</TextBlock>
+                    <WrapPanel>
+                        <TextBlock Foreground="White">Miami Heat</TextBlock>
                     </WrapPanel>
-                    <WrapPanel HorizontalAlignment="Center">
-                        <Image Source="assets/7_heat.png" Height="110" Width="150"/>
-                        <Image Source="assets/14_heat.png" Height="110" Width="150"/>
-                        <Image Source="assets/22_heat.png" Height="110" Width="150"/>
-                        <Image Source="assets/99_heat.png" Height="110" Width="150"/>
-                        <Image Source="assets/13_heat.png" Height="110" Width="150"/>
+                    
+                    <WrapPanel>
+                        <Image Source="assets/7_heat.png"/>
+                        <Image Source="assets/14_heat.png"/>
+                        <Image Source="assets/22_heat.png"/>
+                        <Image Source="assets/99_heat.png"/>
+                        <Image Source="assets/13_heat.png"/>
                     </WrapPanel>
                 </StackPanel>
             </WrapPanel>
